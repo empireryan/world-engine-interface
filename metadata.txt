@@ -1,0 +1,26 @@
+[general]
+name=WorldEngine
+qgisMinimumVersion=2.2
+# qgisMaximumVersion=2.9
+description=This plugin serves as a thin layer between the QGIS front-end and the World Engine, spatially aware decision making algorithm development system.This plugin leverages the line feature and creation abilities of 'chainage', which creates a new layer of points
+    in provided distances on top of provided vector line layers. Optionally you can set the
+    startpoint (distance from the start of the line) and the endpoint (stop
+    before reaching the end of the line) and automatically label the new
+    points with the distances.
+about=World Engine is a spatially aware abstraction layer used to design and study spatially aware decision making algorithms. It is built on top of some features of 'qchainage' with many more features tied to World Engine planned for the future. 
+category=Plugin
+version=0.3.7
+author=Ryan A. Rodriguez
+email=ryarodri@ucsc.edu
+
+; optional metadata entries
+changelog=
+    0.2.0 First Iteration
+
+tags=vector, Feature chainage, measurement, chainages, linear referencing
+homepage=https://github.com/empireryan/world-engine-interface
+tracker=https://github.com/empireryan/world-engine-interface/issues
+repository=https://github.com/empireryan/world-engine-interface
+icon=img/hslLogo.png
+experimental=True
+deprecated=False
